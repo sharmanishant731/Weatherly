@@ -2,6 +2,7 @@
   "name": "weather-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://sharmanishant731.github.io/Weatherly",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "autoprefixer": "^10.4.14",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -31,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^5.2.0"
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
