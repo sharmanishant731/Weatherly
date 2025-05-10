@@ -26,7 +26,6 @@ Weatherly is a modern, responsive weather application built with React and Tailw
 - **Temperature Units:** Toggle between Celsius and Fahrenheit.
 - **Wind Speed Units:** Toggle between meters per second (m/s) and kilometers per hour (km/h).
 - **Dark Mode:** Switch between light and dark themes for comfortable viewing.
-- **Responsive Design:** Works well on desktop and mobile devices.
 - **Animated UI:** Smooth background gradients, fade-ins, moving gradient animations, and interactive elements.
 - **Error Handling:** User-friendly error messages for invalid input or API issues.
 
@@ -111,6 +110,12 @@ A `.env` file is a plain text file containing key-value pairs of environment var
 - Toggle temperature and wind speed units using the buttons on the weather card.
 - Switch between light and dark mode using the toggle button.
 - Click the info icon to learn more about the app.
+
+## Live Project Link
+
+You can view the live project at: [sharmanishant731.github.io/Weatherly](https://sharmanishant731.github.io/Weatherly)
+
+> Note: If you are using your mobile phone to view the project, please change the setting to desktop mode for the best viewing experience.
 
 ## Contact
 
